@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="4" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="32" started-at="2018-07-08T15:32:00Z" finished-at="2018-07-08T15:32:00Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="32" started-at="2018-07-08T15:32:00Z" finished-at="2018-07-08T15:32:00Z">
+      <class name="TestingFramework.Test2">
+        <test-method status="PASS" signature="sampleTest()[pri:0, instance:TestingFramework.Test2@668bc3d5]" name="sampleTest" duration-ms="0" started-at="2018-07-08T11:32:00Z" finished-at="2018-07-08T11:32:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sampleTest -->
+        <test-method status="PASS" signature="sampletTest2()[pri:0, instance:TestingFramework.Test2@668bc3d5]" name="sampletTest2" duration-ms="0" started-at="2018-07-08T11:32:00Z" finished-at="2018-07-08T11:32:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sampletTest2 -->
+      </class> <!-- TestingFramework.Test2 -->
+      <class name="TestingFramework.Test3">
+        <test-method status="PASS" signature="sampleTest()[pri:0, instance:TestingFramework.Test3@17550481]" name="sampleTest" duration-ms="0" started-at="2018-07-08T11:32:00Z" finished-at="2018-07-08T11:32:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sampleTest -->
+        <test-method status="PASS" signature="sampletTest2()[pri:0, instance:TestingFramework.Test3@17550481]" name="sampletTest2" duration-ms="0" started-at="2018-07-08T11:32:00Z" finished-at="2018-07-08T11:32:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sampletTest2 -->
+      </class> <!-- TestingFramework.Test3 -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
