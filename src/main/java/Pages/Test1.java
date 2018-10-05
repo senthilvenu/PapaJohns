@@ -18,10 +18,12 @@ public class Test1 {
 	public void sampletTest2()
 	{    
 		String Test2 = "Test1:Results1";
-		
+		String Test3 = "Test1:Results2";
 		System.out.println(Test2);
 		SoftAssert Softassertion=new SoftAssert();
 		Softassertion.assertEquals(Test2,"Test1:Results1");
+		System.out.println(Test3);
+		Softassertion.assertEquals(Test3,"Test1:Results2")
 			   // Softassertion.assertAll();
 		
 	}
