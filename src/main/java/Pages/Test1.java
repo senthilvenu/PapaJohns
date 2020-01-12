@@ -1,13 +1,18 @@
 package Pages;
+import java.util.logging.LogManager;
+import java.util.logging.Logger;
+import org.testng.annotations.Listeners;
 import org.testng.annotations.Test;
 import org.testng.asserts.SoftAssert;
 import junit.framework.Assert;
 
 //public static 
 
+@Listeners(Pages.listeners.class)
 public class Test1 {
 	
-	@Test(enabled=false,description="Test1_SampleTest_Results")
+		
+	@Test(enabled=false)
 	public void sampleTest()
 	{
 	String Test1 = "Test1:Results";
@@ -17,14 +22,11 @@ public class Test1 {
 	@Test(dependsOnMethods= {"sampleTest"})
 	public void sampletTest2()
 	{    
-		String Test2 = "Test1:Results1";
-		String Test3 = "Test1:Results2";
+		String Test2 = "Test1:Results1";		
 		System.out.println(Test2);
 		SoftAssert Softassertion=new SoftAssert();
 		Softassertion.assertEquals(Test2,"Test1:Results1");
-		System.out.println(Test3);
-		Softassertion.assertEquals(Test3,"Test1:Results2")
-			   // Softassertion.assertAll();
+		 // Softassertion.assertAll();
 		
 	}
 

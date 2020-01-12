@@ -2,22 +2,22 @@
 <testng-results skipped="0" failed="0" total="2" passed="2">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="41" started-at="2018-10-05T16:44:14Z" finished-at="2018-10-05T16:44:14Z">
+  <suite name="Suite" duration-ms="176" started-at="2019-12-05T17:38:57Z" finished-at="2019-12-05T17:38:57Z">
     <groups>
       <group name="Sanity">
-        <method signature="TestCase_01.TestCase()[pri:0, instance:TestingFramework.TestCase_01@4520ebad]" name="TestCase" class="TestingFramework.TestCase_01"/>
-        <method signature="TestCase_03.TestCase()[pri:0, instance:TestingFramework.TestCase_03@5dfcfece]" name="TestCase" class="TestingFramework.TestCase_03"/>
+        <method signature="TestCase_01.TestCase()[pri:0, instance:TestingFramework.TestCase_01@47c62251]" name="TestCase" class="TestingFramework.TestCase_01"/>
+        <method signature="TestCase_03.TestCase()[pri:0, instance:TestingFramework.TestCase_03@3e6fa38a]" name="TestCase" class="TestingFramework.TestCase_03"/>
       </group> <!-- Sanity -->
     </groups>
-    <test name="Test" duration-ms="41" started-at="2018-10-05T16:44:14Z" finished-at="2018-10-05T16:44:14Z">
+    <test name="Test" duration-ms="176" started-at="2019-12-05T17:38:57Z" finished-at="2019-12-05T17:38:57Z">
       <class name="TestingFramework.TestCase_03">
-        <test-method status="PASS" signature="TestCase()[pri:0, instance:TestingFramework.TestCase_03@5dfcfece]" name="TestCase" duration-ms="4" started-at="2018-10-05T12:44:14Z" finished-at="2018-10-05T12:44:14Z">
+        <test-method status="PASS" signature="TestCase()[pri:0, instance:TestingFramework.TestCase_03@3e6fa38a]" name="TestCase" duration-ms="20" started-at="2019-12-05T23:08:57Z" finished-at="2019-12-05T23:08:57Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TestCase -->
       </class> <!-- TestingFramework.TestCase_03 -->
       <class name="TestingFramework.TestCase_01">
-        <test-method status="PASS" signature="TestCase()[pri:0, instance:TestingFramework.TestCase_01@4520ebad]" name="TestCase" duration-ms="18" started-at="2018-10-05T12:44:14Z" finished-at="2018-10-05T12:44:14Z">
+        <test-method status="PASS" signature="TestCase()[pri:0, instance:TestingFramework.TestCase_01@47c62251]" name="TestCase" duration-ms="120" started-at="2019-12-05T23:08:57Z" finished-at="2019-12-05T23:08:57Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TestCase -->

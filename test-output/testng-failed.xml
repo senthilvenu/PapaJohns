@@ -3,11 +3,11 @@
 <suite name="Failed suite [Default suite]">
   <test name="Default test(failed)">
     <classes>
-      <class name="TestingFramework.Test1">
+      <class name="TestingFramework.TestCase_01">
         <methods>
-          <include name="sampletTest2"/>
+          <include name="TestCase"/>
         </methods>
-      </class> <!-- TestingFramework.Test1 -->
+      </class> <!-- TestingFramework.TestCase_01 -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
