@@ -19,6 +19,7 @@ public class TestCase_01
 	  log.info("Login the page" );
 	  t1.sampletTest2();
 	  log.info("application created");
+	  System.out.println("Testing Github");  
 	   
 	   
    }

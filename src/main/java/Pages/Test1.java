@@ -10,9 +10,8 @@ import junit.framework.Assert;
 
 @Listeners(Pages.listeners.class)
 public class Test1 {
-	
-		
-	@Test(enabled=false)
+			
+	@Test(enabled=true)
 	public void sampleTest()
 	{
 	String Test1 = "Test1:Results";

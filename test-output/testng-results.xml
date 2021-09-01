@@ -1,27 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" total="2" passed="2">
+<testng-results skipped="0" failed="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="176" started-at="2019-12-05T17:38:57Z" finished-at="2019-12-05T17:38:57Z">
+  <suite name="Default suite" duration-ms="297" started-at="2021-08-17T17:46:11Z" finished-at="2021-08-17T17:46:11Z">
     <groups>
       <group name="Sanity">
-        <method signature="TestCase_01.TestCase()[pri:0, instance:TestingFramework.TestCase_01@47c62251]" name="TestCase" class="TestingFramework.TestCase_01"/>
-        <method signature="TestCase_03.TestCase()[pri:0, instance:TestingFramework.TestCase_03@3e6fa38a]" name="TestCase" class="TestingFramework.TestCase_03"/>
+        <method signature="TestCase_01.TestCase()[pri:0, instance:TestingFramework.TestCase_01@cb5822]" name="TestCase" class="TestingFramework.TestCase_01"/>
       </group> <!-- Sanity -->
     </groups>
-    <test name="Test" duration-ms="176" started-at="2019-12-05T17:38:57Z" finished-at="2019-12-05T17:38:57Z">
-      <class name="TestingFramework.TestCase_03">
-        <test-method status="PASS" signature="TestCase()[pri:0, instance:TestingFramework.TestCase_03@3e6fa38a]" name="TestCase" duration-ms="20" started-at="2019-12-05T23:08:57Z" finished-at="2019-12-05T23:08:57Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- TestCase -->
-      </class> <!-- TestingFramework.TestCase_03 -->
+    <test name="Default test" duration-ms="297" started-at="2021-08-17T17:46:11Z" finished-at="2021-08-17T17:46:11Z">
       <class name="TestingFramework.TestCase_01">
-        <test-method status="PASS" signature="TestCase()[pri:0, instance:TestingFramework.TestCase_01@47c62251]" name="TestCase" duration-ms="120" started-at="2019-12-05T23:08:57Z" finished-at="2019-12-05T23:08:57Z">
+        <test-method status="PASS" signature="TestCase()[pri:0, instance:TestingFramework.TestCase_01@cb5822]" name="TestCase" duration-ms="164" started-at="2021-08-17T13:46:11Z" finished-at="2021-08-17T13:46:11Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TestCase -->
       </class> <!-- TestingFramework.TestCase_01 -->
-    </test> <!-- Test -->
-  </suite> <!-- Suite -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>
